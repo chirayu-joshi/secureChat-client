@@ -1,0 +1,8 @@
+{
+  "short_name": "Secure Chat",
+  "name": "Secure Chat",
+  "start_url": "secure-chat-java",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

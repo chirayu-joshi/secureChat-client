@@ -1,0 +1,116 @@
+:root {
+  --black: #0D1821;
+  --grey: #F0F4EF;
+  --yellow: #FFAD05;
+  --green: lime;
+  --pink: magenta;
+  --light-blue: cyan;
+  --sky-blue: #23C9FF;
+  --pale-yellow: #F3DE8A;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Ubuntu Mono', monospace;
+  font-size: 1.5rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--black);
+  color: var(--grey);
+}
+
+.App {
+  padding: 5px;
+}
+
+.lightblueText {
+  color: var(--light-blue);
+}
+
+.pinkText {
+  color: var(--pink);
+}
+
+.greenText {
+  color: var(--green);
+}
+
+.yellowText {
+  color: var(--yellow);
+}
+
+.userPrompt {
+  font-size: 2rem;
+}
+
+.inputPrompt {
+  border: none;
+  background: none;
+  outline: none;
+  color: var(--yellow);
+  font-size: 1.9rem;
+  margin-left: 10px;
+  width: 900px;
+}
+
+.input {
+  border: none;
+  background: none;
+  outline: none;
+  margin-left: 10px;
+  color: var(--grey);
+  font-size: 1.5rem;
+  border-bottom: 1px solid var(--grey);
+  width: 900px;
+}
+
+.chatbox {
+  min-height: 89.6vh;
+  width: 100%;
+  margin-top: 7px;
+}
+
+.chatMessageLeft {
+  display: flex;
+  width: 80vw;
+  margin-right: auto;
+  align-items: center;
+}
+
+.chatMessageLeft>div {
+  margin-right: 10px;
+}
+
+.chatMessageLeft>p {
+  color: var(--sky-blue);
+}
+
+.chatPrompt {
+  border: none;
+  background: none;
+  outline: none;
+  color: var(--sky-blue);
+  font-size: 1.7rem;
+  width: 100%;
+}
+
+.chatMessageRight {
+  display: flex;
+  width: 80vw;
+  margin-left: auto;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.chatMessageRight>div {
+  margin-left: 10px;
+}
+
+.chatMessageRight>p {
+  color: var(--pale-yellow);
+}
